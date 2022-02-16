@@ -1,0 +1,64 @@
+site_name: Demo Docs
+site_description: CitiMeasure Documentation
+site_author: CitiMeasure
+site_url: https://citimeasure.eu/
+repo_name: demo-docs
+repo_url: https://github.com/oscgonfer/demo-docs
+# https://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation
+
+theme:
+  name: 'material'
+  features:
+    - instant
+    - navigation.expand
+    - tabs
+  palette:
+    primary: 'green'
+    accent: 'green'
+  feature:
+    tabs: true
+  icon:
+    repo: fontawesome/brands/git-alt
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: 'https://twitter.com/citimeasure'
+    - icon: fontawesome/brands/instagram
+      link: 'https://www.instagram.com/citimeasure/'
+    - icon: fontawesome/brands/github
+      link: 'https://www.github.com/oscgonfer/demo-docs'
+  project: 'The CitiMeasure project is great!'
+  footer_logo: '/assets/images/eu-flag.png'
+  license: 'CC Attribution-NonCommercial-ShareAlike 4.0 International'
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      base_path: 'docs'
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - attr_list
+  - pymdownx.tabbed
+  
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+  - 'https://buttons.github.io/buttons.js'
