@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://citimeasure.eu/</loc>
-         <lastmod>2022-02-16</lastmod>
+         <lastmod>2022-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://citimeasure.eu/test/</loc>
-         <lastmod>2022-02-16</lastmod>
+         <lastmod>2022-02-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://citimeasure.eu/projects/example/</loc>
+         <lastmod>2022-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://citimeasure.eu/projects/hello/</loc>
-         <lastmod>2022-02-16</lastmod>
+         <lastmod>2022-02-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
